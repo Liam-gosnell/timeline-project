@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+import PostList from './posts/PostList'
 
 function App() {
   return (
     <div>
-      <p>Hello World</p>
+      <PostList/>
     </div>
   );
 }
