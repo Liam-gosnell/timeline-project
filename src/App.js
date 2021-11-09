@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css'
-import BarChart from './components/BarChart';
 import Data from './data.json';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
             <p>End time - { post.endTime }</p>
             <p>Width - { post.width }</p>
             <p>Height - { post.height }</p>
-            {/* <BarChart/> */}
             </div>
           )
         })}
